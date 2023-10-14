@@ -243,7 +243,6 @@ def update_output_div(date, hour, proy):
         plot = plot_series(data, initial_date, int(proy))
         return plot
 
-
 # Run the server
 if _name_ == "_main_":
     app.run_server(host='0.0.0.0',debug=True)
